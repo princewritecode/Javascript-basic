@@ -16,3 +16,8 @@ console.log(text4);
 let text5 = "Hello World!";
 let text6 = text5.length;
 console.log(text6);
+
+//string method charAt()
+let text7 = "Hello World!";
+let text8 = text7.charAt(0);
+console.log(text8);
