@@ -21,3 +21,10 @@ console.log(text6);
 let text7 = "Hello World!";
 let text8 = text7.charAt(0);
 console.log(text8);
+
+//string method replace()
+let text9 = "Hello World!";
+let text10 = text9.replace("H", "J");
+console.log(text10);
+
+
