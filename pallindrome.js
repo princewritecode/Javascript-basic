@@ -2,13 +2,8 @@
 
 function pallindrome(str)
 {
-
     const reverseStr = str.split("").reverse().join("");
-    if (reverseStr === str) return 'pallindrome';
-    else
-    {
-        return 'not pallindrome';
-    }
 
+    return (reverseStr === str) ? ('pallindrome') : ('not pallindrome');
 }
 console.log(pallindrome('moom'));
