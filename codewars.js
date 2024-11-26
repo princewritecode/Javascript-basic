@@ -78,3 +78,22 @@ function pigIt(str)
 }
 
 console.log(pigIt('Pig latin is cool!')); // Test with punctuation
+
+
+// check if the number is prime or not
+
+function prime(num)
+{
+    if (num === 2)
+    {
+        return 'prime';
+    }
+    else if (num % 2 === 0)
+    {
+        return 'not prime';
+    }
+    else
+    {
+        return 'prime';
+    }
+}
