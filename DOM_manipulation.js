@@ -19,4 +19,9 @@ console.log(name.innerText);
 //selecting star wars character
 
 const characters = document.querySelector('#star-wars-characters');
+
+//selecting with tag selectors
+
+
+
 console.log(characters);
