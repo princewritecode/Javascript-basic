@@ -66,3 +66,10 @@ footer {
 .red {
   color: red;
 }
+body .button-is-clicked {
+  background-color: #99aefa;
+}
+
+.cta-button .is-clicked {
+  background-color: #bada55;
+}

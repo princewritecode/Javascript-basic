@@ -10,3 +10,14 @@ else
 {
     console.log('no such class as red exist');
 }
+
+const btn = document.querySelector('#get-started');
+const body = document.querySelector('body');
+console.log(btn);
+
+btn.addEventListener('click', (evt) =>
+{
+    console.log(evt);
+
+});
+
