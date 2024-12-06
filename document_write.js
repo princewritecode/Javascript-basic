@@ -13,3 +13,10 @@ for (let item of items)
 {
     item.classList.add('red');
 }
+const goodGuy = document.querySelectorAll('[data-type="good-guy"]');
+
+console.log(goodGuy);
+for (let guy of goodGuy)
+{
+    guy.classList.add('yay');
+}
